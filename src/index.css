@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		font-family: "Poppins", sans-serif;
+		line-height: 1.6;
+		color: #333;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Niramit", sans-serif;
+		font-weight: 700;
+		line-height: 1.2;
+	}
+}
+
+@layer components {
+	.btn {
+		@apply inline-flex items-center justify-center px-4 py-2 rounded-full font-medium transition-all duration-300 hover:transform hover:scale-105;
+	}
+
+	.btn-primary {
+		@apply bg-dark-green text-white hover:bg-dark-blue;
+	}
+
+	.btn-secondary {
+		@apply bg-transparent border-2 border-dark-green text-dark-green hover:bg-dark-green hover:text-white;
+	}
+
+	.btn-outline {
+		@apply bg-transparent border-2 border-dark-green text-dark-green hover:bg-dark-green hover:text-white;
+	}
+
+	.container {
+		@apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+	}
+
+	.section-padding {
+		@apply py-16 lg:py-24;
+	}
+}
