@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/libelula-website/static/css/main.f8d33cb8.css",
+    "main.js": "/libelula-website/static/js/main.6041ef91.js",
+    "static/media/HeroSectionImage.png": "/libelula-website/static/media/HeroSectionImage.84b25b81816bbf986e07.png",
+    "static/media/Adults services image.png": "/libelula-website/static/media/Adults services image.8e962d65866b15a4b3df.png",
+    "static/media/Kids therapy image.png": "/libelula-website/static/media/Kids therapy image.3672f22fe6be5bcd1366.png",
+    "static/media/Contact background desktop.png": "/libelula-website/static/media/Contact background desktop.c788e19c84d8ece2dc07.png",
+    "static/media/whatsapp.png": "/libelula-website/static/media/whatsapp.26ab88563cf0550357d8.png",
+    "static/media/Contact background mobile.png": "/libelula-website/static/media/Contact background mobile.14570d07b163af2bd70f.png",
+    "static/media/logo.svg": "/libelula-website/static/media/logo.94d7caee10e38eea02cc68a4d6cc49c2.svg",
+    "static/media/ig-icon.svg": "/libelula-website/static/media/ig-icon.818d8baff2e1906f5eea8e1880327520.svg",
+    "static/media/libelula-icon.svg": "/libelula-website/static/media/libelula-icon.ed1f6b3f0bb0bfb530731f90b190fec2.svg",
+    "index.html": "/libelula-website/index.html",
+    "static/media/fb-icon.svg": "/libelula-website/static/media/fb-icon.4519af7bee9baeeb08aa0ca132b0531c.svg",
+    "static/media/quote-icon.svg": "/libelula-website/static/media/quote-icon.957619eb936bc7fba279244ade3756b5.svg",
+    "main.f8d33cb8.css.map": "/libelula-website/static/css/main.f8d33cb8.css.map",
+    "main.6041ef91.js.map": "/libelula-website/static/js/main.6041ef91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8d33cb8.css",
+    "static/js/main.6041ef91.js"
+  ]
+}
