@@ -18,7 +18,8 @@
 			"sizes": "512x512"
 		}
 	],
-	"start_url": ".",
+	"start_url": "/libelula-website/",
+	"scope": "/libelula-website/",
 	"display": "standalone",
 	"theme_color": "#c3f991",
 	"background_color": "#ffffff"
