@@ -4,11 +4,11 @@ const FounderSection = () => {
 			<div className="container">
 				<div className="grid lg:grid-cols-2 gap-12 items-center">
 					{/* Founder Photo */}
-					<div className="flex h-full justify-center">
+					<div className="flex h-full justify-center min-h-56">
 						<div className="flex relative w-full justify-center">
 							<div className="w-full h-full rounded-2xl overflow-hidden bg-gray-200">
 								{/* Placeholder for founder photo - replace with actual image */}
-								<div className="w-full h-full bg-gradient-to-br from-primary-green to-secondary-green flex items-center justify-center">
+								<div className="w-full h-full rounded-2xl bg-gradient-to-br from-primary-green to-secondary-green flex items-center justify-center">
 									<div className="text-center text-dark-green"></div>
 								</div>
 							</div>

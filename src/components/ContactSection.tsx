@@ -45,7 +45,10 @@ const ContactSection = ({ sectionId }: { sectionId: string }) => {
 						</h3>
 						<div className="space-y-2 w-full">
 							{phoneNumbers.map((number) => (
-								<div key={number} className="flex items-center gap-2">
+								<div
+									key={number}
+									className="flex items-center justify-center md:justify-start gap-2"
+								>
 									<a
 										href={`tel:${number.replace(/-/g, "")}`}
 										className="font-poppins text-lg font-bold text-black hover:text-dark-green transition-colors"
