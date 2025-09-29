@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/libelula-website/static/css/main.28beb303.css",
-    "main.js": "/libelula-website/static/js/main.ebe31630.js",
-    "static/media/HeroSectionImage.png": "/libelula-website/static/media/HeroSectionImage.84b25b81816bbf986e07.png",
-    "static/media/AdultsServicesImage.png": "/libelula-website/static/media/AdultsServicesImage.8e962d65866b15a4b3df.png",
-    "static/media/KidsTherapyImage.png": "/libelula-website/static/media/KidsTherapyImage.3672f22fe6be5bcd1366.png",
-    "static/media/ContactBackgroundDesktop.png": "/libelula-website/static/media/ContactBackgroundDesktop.c788e19c84d8ece2dc07.png",
-    "static/media/whatsapp.png": "/libelula-website/static/media/whatsapp.26ab88563cf0550357d8.png",
-    "static/media/logo.svg": "/libelula-website/static/media/logo.94d7caee10e38eea02cc68a4d6cc49c2.svg",
-    "static/media/ig-icon.svg": "/libelula-website/static/media/ig-icon.818d8baff2e1906f5eea8e1880327520.svg",
-    "static/media/libelula-icon.svg": "/libelula-website/static/media/libelula-icon.ed1f6b3f0bb0bfb530731f90b190fec2.svg",
-    "index.html": "/libelula-website/index.html",
-    "static/media/fb-icon.svg": "/libelula-website/static/media/fb-icon.4519af7bee9baeeb08aa0ca132b0531c.svg",
-    "static/media/quote-icon.svg": "/libelula-website/static/media/quote-icon.957619eb936bc7fba279244ade3756b5.svg",
-    "main.28beb303.css.map": "/libelula-website/static/css/main.28beb303.css.map",
-    "main.ebe31630.js.map": "/libelula-website/static/js/main.ebe31630.js.map"
+    "main.css": "/static/css/main.28beb303.css",
+    "main.js": "/static/js/main.7793fbf4.js",
+    "static/media/HeroSectionImage.png": "/static/media/HeroSectionImage.84b25b81816bbf986e07.png",
+    "static/media/AdultsServicesImage.png": "/static/media/AdultsServicesImage.8e962d65866b15a4b3df.png",
+    "static/media/KidsTherapyImage.png": "/static/media/KidsTherapyImage.3672f22fe6be5bcd1366.png",
+    "static/media/ContactBackgroundDesktop.png": "/static/media/ContactBackgroundDesktop.c788e19c84d8ece2dc07.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.26ab88563cf0550357d8.png",
+    "static/media/logo.svg": "/static/media/logo.94d7caee10e38eea02cc68a4d6cc49c2.svg",
+    "static/media/ig-icon.svg": "/static/media/ig-icon.818d8baff2e1906f5eea8e1880327520.svg",
+    "static/media/libelula-icon.svg": "/static/media/libelula-icon.ed1f6b3f0bb0bfb530731f90b190fec2.svg",
+    "static/media/fb-icon.svg": "/static/media/fb-icon.4519af7bee9baeeb08aa0ca132b0531c.svg",
+    "index.html": "/index.html",
+    "static/media/quote-icon.svg": "/static/media/quote-icon.957619eb936bc7fba279244ade3756b5.svg",
+    "main.28beb303.css.map": "/static/css/main.28beb303.css.map",
+    "main.7793fbf4.js.map": "/static/js/main.7793fbf4.js.map"
   },
   "entrypoints": [
     "static/css/main.28beb303.css",
-    "static/js/main.ebe31630.js"
+    "static/js/main.7793fbf4.js"
   ]
 }
