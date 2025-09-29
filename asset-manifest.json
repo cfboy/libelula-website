@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/libelula-website/static/css/main.31bff14e.css",
-    "main.js": "/libelula-website/static/js/main.ea901f9a.js",
+    "main.css": "/libelula-website/static/css/main.28beb303.css",
+    "main.js": "/libelula-website/static/js/main.ebe31630.js",
     "static/media/HeroSectionImage.png": "/libelula-website/static/media/HeroSectionImage.84b25b81816bbf986e07.png",
     "static/media/AdultsServicesImage.png": "/libelula-website/static/media/AdultsServicesImage.8e962d65866b15a4b3df.png",
     "static/media/KidsTherapyImage.png": "/libelula-website/static/media/KidsTherapyImage.3672f22fe6be5bcd1366.png",
@@ -13,11 +13,11 @@
     "index.html": "/libelula-website/index.html",
     "static/media/fb-icon.svg": "/libelula-website/static/media/fb-icon.4519af7bee9baeeb08aa0ca132b0531c.svg",
     "static/media/quote-icon.svg": "/libelula-website/static/media/quote-icon.957619eb936bc7fba279244ade3756b5.svg",
-    "main.31bff14e.css.map": "/libelula-website/static/css/main.31bff14e.css.map",
-    "main.ea901f9a.js.map": "/libelula-website/static/js/main.ea901f9a.js.map"
+    "main.28beb303.css.map": "/libelula-website/static/css/main.28beb303.css.map",
+    "main.ebe31630.js.map": "/libelula-website/static/js/main.ebe31630.js.map"
   },
   "entrypoints": [
-    "static/css/main.31bff14e.css",
-    "static/js/main.ea901f9a.js"
+    "static/css/main.28beb303.css",
+    "static/js/main.ebe31630.js"
   ]
 }
