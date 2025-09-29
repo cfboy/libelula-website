@@ -26,16 +26,14 @@ const ContactSection = ({ sectionId }: { sectionId: string }) => {
 			<div className="container relative z-10">
 				<div className="grid lg:grid-cols-3 gap-2 md:gap-12 items-start">
 					{/* Contact Info */}
-					<div className="flex flex-col items-center md:items-start backdrop-blur-sm rounded-2xl p-6 h-full space-y-8">
-						<div className="space-y-12">
-							<h2 className="font-niramit text-3xl lg:text-5xl font-bold text-dark-green leading-tight text-center md:text-left">
-								¡Coordina tu consulta hoy!
-							</h2>
+					<div className="flex flex-col gap-4 items-center md:items-start backdrop-blur-sm rounded-2xl p-6 h-full space-y-8">
+						<h2 className="font-niramit text-3xl lg:text-5xl font-bold text-dark-green leading-tight text-center md:text-left">
+							¡Coordina tu consulta hoy!
+						</h2>
 
-							<a href="#contact-form" className="btn btn-primary inline-block">
-								Completa el siguiente formulario
-							</a>
-						</div>
+						<a href="#contact-form" className="btn btn-primary inline-block">
+							Completa el siguiente formulario
+						</a>
 					</div>
 
 					{/* Contact Details */}
