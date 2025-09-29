@@ -1,4 +1,3 @@
-import React from "react";
 import AboutSection from "./components/AboutSection";
 import AdultsServices from "./components/AdultsServices";
 import ContactSection from "./components/ContactSection";

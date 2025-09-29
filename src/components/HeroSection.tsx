@@ -1,4 +1,3 @@
-// Import images
 import heroSectionImage from "../assets/HeroSectionImage.png";
 
 const HeroSection = ({ sectionId }: { sectionId: string }) => {
@@ -19,11 +18,11 @@ const HeroSection = ({ sectionId }: { sectionId: string }) => {
 							</p>
 						</div>
 
-						<div className="flex flex-col sm:flex-row gap-4">
-							<a href="#services" className="btn btn-outline">
+						<div className="flex flex-col sm:flex-row gap-4 px-12 md:px-0">
+							<a href="#kids-services" className="btn btn-outline">
 								Conoce nuestros servicios
 							</a>
-							<a href="#contacto" className="btn btn-primary">
+							<a href="#contact" className="btn btn-primary">
 								Agenda tu consulta hoy
 							</a>
 						</div>

@@ -6,19 +6,18 @@ const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
 	const navLinks = [
-		{ href: "#inicio", label: "Inicio" },
-		{ href: "#sobre-nosotros", label: "Sobre nosotros" },
-		{ href: "#services", label: "Nuestros servicios" },
-		{ href: "#contacto", label: "Contáctanos" },
-		{ href: "#contacto", label: "Agendar consulta" },
+		{ href: "#hero", label: "Inicio" },
+		{ href: "#about", label: "Sobre nosotros" },
+		{ href: "#kids-services", label: "Nuestros servicios" },
+		{ href: "#contact", label: "Contáctanos" },
 	];
 
 	return (
-		<footer className="bg-white section-padding border-t border-gray-200">
+		<footer className="bg-white section-padding border-t border-gray-200 !pb-12">
 			<div className="container">
 				<div className="space-y-12">
 					{/* Main Footer Content */}
-					<div className="grid md:grid-flow-row-dense grid-rows-3 md:grid-rows-1 md:grid-cols-3 gap-4">
+					<div className="flex flex-col md:flex-row gap-8 md:gap-4">
 						{/* Logo */}
 						<div className="flex justify-center lg:justify-start lg:justify-self-start">
 							<img src={logo} alt="Clínica Libélula" className="h-16 w-auto" />
@@ -26,7 +25,7 @@ const Footer = () => {
 
 						{/* Navigation Links */}
 						<div className="flex text-center justify-center w-full">
-							<nav className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-4">
+							<nav className="flex flex-col md:flex-row justify-center gap-4">
 								{navLinks.map((link) => (
 									<a
 										key={`footer-link-${link.href}`}
@@ -45,8 +44,24 @@ const Footer = () => {
 								¡Síguenos!
 							</p>
 							<div className="flex justify-center lg:justify-end gap-6">
-								<img src={FBIcon} alt="Facebook" className="w-10 h-10" />
-								<img src={IGIcon} alt="Instagram" className="w-10 h-10" />
+								<a
+									href="https://www.facebook.com/share/1BAVLSb4TD/?mibextid=wwXIfr"
+									target="_blank"
+									rel="noopener noreferrer"
+									aria-label="Facebook"
+									className="btn-icon"
+								>
+									<img src={FBIcon} alt="Facebook" className="w-10 h-10" />
+								</a>
+								<a
+									href="https://www.instagram.com/clinicalibelulapr?igsh=MXFhcm42bnRpODRjMA=="
+									target="_blank"
+									rel="noopener noreferrer"
+									aria-label="Instagram"
+									className="btn-icon"
+								>
+									<img src={IGIcon} alt="Instagram" className="w-10 h-10" />
+								</a>
 							</div>
 						</div>
 					</div>

@@ -1,34 +1,28 @@
-// Import background images
-import contactBgDesktop from "../assets/Contact background desktop.png";
-import contactBgMobile from "../assets/Contact background mobile.png";
+import { CopyCheckIcon, CopyIcon } from "lucide-react";
+import { useState } from "react";
+import contactBgDesktop from "../assets/ContactBackgroundDesktop.png";
 import whatsapp from "../assets/whatsapp.png";
 
 const ContactSection = ({ sectionId }: { sectionId: string }) => {
+	const [copied, setCopied] = useState<string | null>(null);
+
+	const handleCopy = (value: string) => {
+		navigator.clipboard.writeText(value);
+		setCopied(value);
+		setTimeout(() => setCopied(null), 1500);
+	};
+
+	const phoneNumbers = ["787-936-1396", "787-449-4092"];
+	const email = "clinicalibelula@gmail.com";
+
 	return (
 		<section
 			id={sectionId}
-			className="section-padding relative overflow-hidden"
+			className="section-padding relative overflow-hidden bg-cover bg-center"
 			style={{
-				backgroundImage: `url(${contactBgMobile})`,
-				backgroundSize: "cover",
-				backgroundPosition: "center",
-				backgroundRepeat: "no-repeat",
+				backgroundImage: `url(${contactBgDesktop})`,
 			}}
 		>
-			{/* Desktop background image overlay */}
-			<div
-				className="absolute inset-0 hidden lg:block"
-				style={{
-					backgroundImage: `url(${contactBgDesktop})`,
-					backgroundSize: "cover",
-					backgroundPosition: "center",
-					backgroundRepeat: "no-repeat",
-				}}
-			></div>
-
-			{/* Background overlay for better text readability */}
-			<div className="absolute inset-0 bg-light-blue/80"></div>
-
 			<div className="container relative z-10">
 				<div className="grid lg:grid-cols-3 gap-2 md:gap-12 items-start">
 					{/* Contact Info */}
@@ -45,37 +39,65 @@ const ContactSection = ({ sectionId }: { sectionId: string }) => {
 					</div>
 
 					{/* Contact Details */}
-					{/* Phone Numbers */}
 					<div className="flex flex-col items-center md:items-start backdrop-blur-sm rounded-2xl p-6 space-y-4 h-full">
 						<h3 className="font-poppins text-xl font-medium text-dark-green">
 							Teléfonos
 						</h3>
-
-						<div className="space-y-2">
-							<p className="font-poppins text-lg font-bold text-black">
-								787-936-1396
-							</p>
-							<p className="font-poppins text-lg font-bold text-black">
-								787-449-4092
-							</p>
+						<div className="space-y-2 w-full">
+							{phoneNumbers.map((number) => (
+								<div key={number} className="flex items-center gap-2">
+									<a
+										href={`tel:${number.replace(/-/g, "")}`}
+										className="font-poppins text-lg font-bold text-black hover:text-dark-green transition-colors"
+									>
+										{number}
+									</a>
+									<button
+										type="button"
+										className="group ml-1 p-1 rounded transition-colors"
+										onClick={() => handleCopy(number)}
+										aria-label={`Copiar ${number}`}
+									>
+										{copied === number ? (
+											<CopyCheckIcon className="w-5 h-5 text-green-600" />
+										) : (
+											<CopyIcon className="w-5 h-5 text-dark-green group-hover:scale-110" />
+										)}
+									</button>
+								</div>
+							))}
 						</div>
-
 						<div className="flex items-center gap-2">
 							<span className="font-poppins text-dark-green">Llamadas o</span>
 							<img src={whatsapp} alt="WhatsApp" className="w-6 h-6" />
 							<span className="font-poppins text-dark-green">WhatsApp</span>
 						</div>
 					</div>
-
 					{/* Email */}
 					<div className="flex flex-col items-center md:items-start backdrop-blur-sm rounded-2xl p-6 space-y-4 h-full">
 						<h3 className="font-poppins text-xl font-medium text-dark-green">
 							Correo electrónico
 						</h3>
-
-						<p className="font-poppins text-lg font-bold text-black">
-							clinicalibelula@gmail.com
-						</p>
+						<div className="flex items-center gap-2">
+							<a
+								href={`mailto:${email}`}
+								className="font-poppins text-lg font-bold text-black hover:text-dark-green transition-colors break-all"
+							>
+								{email}
+							</a>
+							<button
+								type="button"
+								className="group ml-1 p-1 rounded transition-colors"
+								onClick={() => handleCopy(email)}
+								aria-label="Copiar correo electrónico"
+							>
+								{copied === email ? (
+									<CopyCheckIcon className="w-5 h-5 text-green-600" />
+								) : (
+									<CopyIcon className="w-5 h-5 text-dark-green group-hover:scale-110" />
+								)}
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>

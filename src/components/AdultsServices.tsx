@@ -1,4 +1,4 @@
-import adultsServicesImage from "../assets/Adults services image.png";
+import adultsServicesImage from "../assets/AdultsServicesImage.png";
 import { ReactComponent as LibelulaIcon } from "../assets/libelula-icon.svg";
 
 const AdultsServices = ({ sectionId }: { sectionId: string }) => {
@@ -32,7 +32,7 @@ const AdultsServices = ({ sectionId }: { sectionId: string }) => {
 							))}
 						</ul>
 
-						<a href="#contacto" className="btn btn-primary">
+						<a href="#contact" className="btn btn-primary">
 							Agendar consulta
 						</a>
 					</div>

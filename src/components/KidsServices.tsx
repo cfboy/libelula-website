@@ -1,6 +1,4 @@
-// Import image and icon
-
-import kidsTherapyImage from "../assets/Kids therapy image.png";
+import kidsTherapyImage from "../assets/KidsTherapyImage.png";
 import { ReactComponent as LibelulaIcon } from "../assets/libelula-icon.svg";
 
 const KidsServices = ({ sectionId }: { sectionId: string }) => {
@@ -48,7 +46,7 @@ const KidsServices = ({ sectionId }: { sectionId: string }) => {
 							))}
 						</ul>
 
-						<a href="#contacto" className="btn btn-primary">
+						<a href="#contact" className="btn btn-primary">
 							Agendar consulta
 						</a>
 					</div>

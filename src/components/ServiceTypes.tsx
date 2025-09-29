@@ -66,7 +66,7 @@ const ServiceTypes = ({ sectionId }: { sectionId: string }) => {
 									onClick={() => {
 										// Handle address view - could open a modal or link to maps
 										window.open(
-											"https://maps.google.com/?q=Bayamón,Puerto Rico",
+											"https://maps.app.goo.gl/oiaESerR3wgFXM1QA",
 											"_blank",
 										);
 									}}

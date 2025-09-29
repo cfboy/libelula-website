@@ -40,7 +40,7 @@ const Navbar = () => {
 						>
 							Contáctanos
 						</a>
-						<a href="#contacto" className="btn btn-primary">
+						<a href="#contact" className="btn btn-primary">
 							Agendar consulta
 						</a>
 					</div>
@@ -71,7 +71,7 @@ const Navbar = () => {
 								className="font-poppins font-bold text-dark-green hover:text-dark-blue transition-colors text-left"
 								onClick={() => {
 									setIsMenuOpen(false);
-									window.location.hash = "#inicio";
+									window.location.hash = "#hero";
 								}}
 							>
 								Inicio
@@ -81,7 +81,7 @@ const Navbar = () => {
 								className="font-poppins text-dark-green hover:text-dark-blue transition-colors text-left"
 								onClick={() => {
 									setIsMenuOpen(false);
-									window.location.hash = "#sobre-nosotros";
+									window.location.hash = "#about";
 								}}
 							>
 								Sobre nosotros
@@ -91,7 +91,7 @@ const Navbar = () => {
 								className="font-poppins text-dark-green hover:text-dark-blue transition-colors text-left"
 								onClick={() => {
 									setIsMenuOpen(false);
-									window.location.hash = "#services";
+									window.location.hash = "#kids-services";
 								}}
 							>
 								Nuestros servicios
@@ -101,7 +101,7 @@ const Navbar = () => {
 								className="font-poppins text-dark-green hover:text-dark-blue transition-colors text-left"
 								onClick={() => {
 									setIsMenuOpen(false);
-									window.location.hash = "#contacto";
+									window.location.hash = "#contact";
 								}}
 							>
 								Contáctanos
@@ -111,7 +111,7 @@ const Navbar = () => {
 								className="btn btn-primary w-fit"
 								onClick={() => {
 									setIsMenuOpen(false);
-									window.location.hash = "#contacto";
+									window.location.hash = "#contact";
 								}}
 							>
 								Agendar consulta
