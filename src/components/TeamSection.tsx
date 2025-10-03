@@ -18,11 +18,6 @@ const TeamSection = ({ sectionId }: { sectionId: string }) => {
 			name: "Terapeutas ocupacionales",
 			bgColor: "bg-light-blue",
 		},
-		{
-			id: "asistentes",
-			name: "Asistentes administrativos",
-			bgColor: "bg-secondary-green",
-		},
 	];
 
 	return (
