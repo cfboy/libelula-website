@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c6efa7d.css",
-    "main.js": "/static/js/main.d6d2508f.js",
+    "main.css": "/static/css/main.54096cd3.css",
+    "main.js": "/static/js/main.6d912809.js",
     "static/media/HeroSectionImage.png": "/static/media/HeroSectionImage.84b25b81816bbf986e07.png",
     "static/media/AdultsServicesImage.png": "/static/media/AdultsServicesImage.8e962d65866b15a4b3df.png",
     "static/media/KidsTherapyImage.png": "/static/media/KidsTherapyImage.3672f22fe6be5bcd1366.png",
@@ -9,17 +9,17 @@
     "static/media/team.jpg": "/static/media/team.aac12b6b6ad515d1bef2.jpg",
     "static/media/whatsapp.png": "/static/media/whatsapp.26ab88563cf0550357d8.png",
     "static/media/yelenna-owner.jpg": "/static/media/yelenna-owner.fda9a117336db1b570fa.jpg",
-    "static/media/logo.svg": "/static/media/logo.94d7caee10e38eea02cc68a4d6cc49c2.svg",
+    "static/media/logo.svg": "/static/media/logo.2f359ca0e1df4e3fabdcc7d21ea614d9.svg",
     "static/media/ig-icon.svg": "/static/media/ig-icon.818d8baff2e1906f5eea8e1880327520.svg",
-    "static/media/libelula-icon.svg": "/static/media/libelula-icon.ed1f6b3f0bb0bfb530731f90b190fec2.svg",
-    "static/media/fb-icon.svg": "/static/media/fb-icon.4519af7bee9baeeb08aa0ca132b0531c.svg",
     "index.html": "/index.html",
+    "static/media/fb-icon.svg": "/static/media/fb-icon.4519af7bee9baeeb08aa0ca132b0531c.svg",
+    "static/media/libelula-icon.svg": "/static/media/libelula-icon.f16fcaaecc37f8885df57e21df0296e0.svg",
     "static/media/quote-icon.svg": "/static/media/quote-icon.957619eb936bc7fba279244ade3756b5.svg",
-    "main.1c6efa7d.css.map": "/static/css/main.1c6efa7d.css.map",
-    "main.d6d2508f.js.map": "/static/js/main.d6d2508f.js.map"
+    "main.54096cd3.css.map": "/static/css/main.54096cd3.css.map",
+    "main.6d912809.js.map": "/static/js/main.6d912809.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c6efa7d.css",
-    "static/js/main.d6d2508f.js"
+    "static/css/main.54096cd3.css",
+    "static/js/main.6d912809.js"
   ]
 }
