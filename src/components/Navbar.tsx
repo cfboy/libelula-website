@@ -1,17 +1,39 @@
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import logo from "../assets/logo.svg";
 
 const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const menuRef = useRef<HTMLDivElement>(null);
+
+	// Close menu when clicking outside
+	useEffect(() => {
+		const handleClickOutside = (event: MouseEvent) => {
+			if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+				setIsMenuOpen(false);
+			}
+		};
+
+		if (isMenuOpen) {
+			document.addEventListener("mousedown", handleClickOutside);
+		}
+
+		return () => {
+			document.removeEventListener("mousedown", handleClickOutside);
+		};
+	}, [isMenuOpen]);
 
 	return (
-		<nav className="bg-primary-green sticky top-0 z-50 shadow-sm">
+		<nav className="bg-primary-green sticky top-0 z-50 shadow-sm" ref={menuRef}>
 			<div className="container">
 				<div className="flex items-center justify-between py-4">
 					{/* Logo */}
 					<div className="flex-shrink-0">
-						<img src={logo} alt="Clínica Libélula" className="h-12 w-auto" />
+						<img
+							src={logo}
+							alt="Clínica Libélula"
+							className="h-14 md:h-16 w-full"
+						/>
 					</div>
 
 					{/* Desktop Navigation */}
@@ -108,7 +130,7 @@ const Navbar = () => {
 							</button>
 							<button
 								type="button"
-								className="btn btn-primary w-fit"
+								className="btn btn-primary w-fit text-sm"
 								onClick={() => {
 									setIsMenuOpen(false);
 									window.location.hash = "#contact";

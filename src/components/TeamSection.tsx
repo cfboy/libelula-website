@@ -30,7 +30,7 @@ const TeamSection = ({ sectionId }: { sectionId: string }) => {
 			<div className="container">
 				<div className="flex flex-col md:flex-row gap-4">
 					<div className="text-left space-y-12">
-						<p className="font-niramit text-2xl lg:text-3xl text-dark-green leading-relaxed max-w-4xl">
+						<p className="font-niramit text-lg md:text-2xl lg:text-3xl text-dark-green leading-relaxed max-w-4xl">
 							<span>Contamos con un </span>
 							<span className="font-bold">
 								equipo interdisciplinario de profesionales especializados
@@ -46,9 +46,9 @@ const TeamSection = ({ sectionId }: { sectionId: string }) => {
 							{teamRoles.map((role) => (
 								<div
 									key={role.id}
-									className={`${role.bgColor} w-full md:w-fit rounded-2xl px-8 py-6 hover:transform hover:scale-105 transition-all duration-300`}
+									className={`${role.bgColor} w-full md:w-fit rounded-2xl px-6 py-4 md:px-8 md:py-6 hover:transform hover:scale-105 transition-all duration-300`}
 								>
-									<h3 className="font-poppins text-2xl lg:text-4xl font-extrabold text-dark-green text-center">
+									<h3 className="font-poppins text-lg md:text-2xl lg:text-4xl font-extrabold text-dark-green text-center">
 										{role.name}
 									</h3>
 								</div>

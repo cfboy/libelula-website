@@ -18,7 +18,7 @@ const HeroSection = ({ sectionId }: { sectionId: string }) => {
 							</p>
 						</div>
 
-						<div className="flex flex-col sm:flex-row gap-4 px-12 md:px-0">
+						<div className="flex flex-col sm:flex-row gap-4 px-2 md:px-0">
 							<a href="#kids-services" className="btn btn-outline">
 								Conoce nuestros servicios
 							</a>

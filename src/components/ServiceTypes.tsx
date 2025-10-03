@@ -29,7 +29,7 @@ const ServiceTypes = ({ sectionId }: { sectionId: string }) => {
 		<section id={sectionId} className="bg-primary-green section-padding">
 			<div className="container">
 				<div className="text-center space-y-6 mb-16">
-					<h2 className="font-niramit text-3xl lg:text-5xl font-bold text-dark-green leading-tight">
+					<h2 className="font-niramit text-2xl md:text-3xl lg:text-5xl font-bold text-dark-green leading-tight">
 						Servicios accesibles que se acomodan a tus necesidades
 					</h2>
 					<p className="font-poppins text-lg lg:text-xl text-dark-green">
@@ -45,16 +45,16 @@ const ServiceTypes = ({ sectionId }: { sectionId: string }) => {
 						>
 							<div className="flex justify-center">
 								<service.icon
-									className="w-16 h-16 text-dark-green"
+									className="w-14 h-14 md:w-16 md:h-16 text-dark-green"
 									strokeWidth={1.5}
 								/>
 							</div>
 
 							<div className="space-y-3">
-								<h3 className="font-poppins text-2xl font-bold text-dark-green">
+								<h3 className="font-poppins text-xl md:text-2xl font-bold text-dark-green">
 									{service.title}
 								</h3>
-								<p className="font-poppins text-lg text-dark-blue leading-relaxed">
+								<p className="font-poppins text-base md:text-lg text-dark-blue leading-relaxed">
 									{service.description}
 								</p>
 							</div>

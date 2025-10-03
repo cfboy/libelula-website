@@ -31,9 +31,11 @@ const Testimonials = ({ sectionId }: { sectionId: string }) => {
 							key={testimonial.id}
 							className={`${testimonial.bgColor} rounded-2xl p-8 space-y-6 hover:transform hover:scale-105 transition-all duration-300`}
 						>
-							<QuoteIcon className={`${testimonial.iconColor} w-20 h-20`} />
+							<QuoteIcon
+								className={`${testimonial.iconColor} w-14 h-14 md:w-20 md:h-20`}
+							/>
 							<p
-								className={`font-poppins text-lg leading-relaxed ${
+								className={`font-poppins md:text-lg leading-relaxed ${
 									testimonial.bgColor === "bg-dark-blue"
 										? "text-white"
 										: "text-gray-text"

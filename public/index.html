@@ -3,12 +3,26 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+  <!-- Light mode favicon -->
+  <link rel="icon" href="%PUBLIC_URL%/icon-light.png" media="(prefers-color-scheme: light)" />
+
+  <!-- Dark mode favicon -->
+  <link rel="icon" href="%PUBLIC_URL%/icon-dark.png" media="(prefers-color-scheme: dark)" />
+
+  <!-- Default fallback favicon -->
+  <link rel="icon" href="%PUBLIC_URL%/icon.png" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#c3f991" />
   <meta name="description"
     content="Clínica Multidisciplinaria Libélula - Acompañamos a niños, adolescentes y familias en su proceso de desarrollo con terapias integrales, accesibles y llenas de empatía." />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.svg" />
+
+  <!-- Apple Touch Icons for light/dark modes -->
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon-light.png" media="(prefers-color-scheme: light)" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon-dark.png" media="(prefers-color-scheme: dark)" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon.svg" />
+
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

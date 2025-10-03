@@ -26,18 +26,21 @@ const ContactSection = ({ sectionId }: { sectionId: string }) => {
 			<div className="container relative z-10">
 				<div className="grid lg:grid-cols-3 gap-2 md:gap-12 items-start">
 					{/* Contact Info */}
-					<div className="flex flex-col gap-4 items-center md:items-start backdrop-blur-sm rounded-2xl p-6 h-full space-y-8">
+					<div className="flex flex-col gap-4 items-center md:items-start backdrop-blur-sm rounded-2xl p-6 px-2 h-full space-y-8">
 						<h2 className="font-niramit text-3xl lg:text-5xl font-bold text-dark-green leading-tight text-center md:text-left">
 							¡Coordina tu consulta hoy!
 						</h2>
 
-						<a href="#contact-form" className="btn btn-primary inline-block">
+						<a
+							href="#contact-form"
+							className="btn btn-primary inline-block text-sm"
+						>
 							Completa el siguiente formulario
 						</a>
 					</div>
 
 					{/* Contact Details */}
-					<div className="flex flex-col items-center md:items-start backdrop-blur-sm rounded-2xl p-6 space-y-4 h-full">
+					<div className="flex flex-col items-center md:items-start backdrop-blur-sm rounded-2xl p-6 px-2 space-y-4 h-full">
 						<h3 className="font-poppins text-xl font-medium text-dark-green">
 							Teléfonos
 						</h3>
@@ -49,7 +52,7 @@ const ContactSection = ({ sectionId }: { sectionId: string }) => {
 								>
 									<a
 										href={`tel:${number.replace(/-/g, "")}`}
-										className="font-poppins text-lg font-bold text-black hover:text-dark-green transition-colors"
+										className="font-poppins text-lg font-bold text-black hover:text-dark-green hover:underline transition-colors"
 									>
 										{number}
 									</a>
@@ -75,20 +78,20 @@ const ContactSection = ({ sectionId }: { sectionId: string }) => {
 						</div>
 					</div>
 					{/* Email */}
-					<div className="flex flex-col items-center md:items-start backdrop-blur-sm rounded-2xl p-6 space-y-4 h-full">
+					<div className="flex flex-col items-center md:items-start backdrop-blur-sm rounded-2xl p-6 px-2 space-y-4 h-full">
 						<h3 className="font-poppins text-xl font-medium text-dark-green">
 							Correo electrónico
 						</h3>
 						<div className="flex items-center gap-2">
 							<a
 								href={`mailto:${email}`}
-								className="font-poppins text-lg font-bold text-black hover:text-dark-green transition-colors break-all"
+								className="font-poppins md:text-lg font-bold text-black hover:text-dark-green hover:underline transition-colors break-all"
 							>
 								{email}
 							</a>
 							<button
 								type="button"
-								className="group ml-1 p-1 rounded transition-colors"
+								className="group rounded transition-colors"
 								onClick={() => handleCopy(email)}
 								aria-label="Copiar correo electrónico"
 							>

@@ -38,7 +38,9 @@ const KidsServices = ({ sectionId }: { sectionId: string }) => {
 						<ul className="space-y-6">
 							{services.map((service) => (
 								<li key={service} className="flex items-start gap-4">
-									<LibelulaIcon className="w-8 h-8 text-white" />
+									<span>
+										<LibelulaIcon className="w-8 h-8 text-white" />
+									</span>
 									<span className="font-poppins text-lg font-semibold text-black leading-relaxed">
 										{service}
 									</span>
@@ -46,9 +48,11 @@ const KidsServices = ({ sectionId }: { sectionId: string }) => {
 							))}
 						</ul>
 
-						<a href="#contact" className="btn btn-primary">
-							Agendar consulta
-						</a>
+						<div className="flex justify-center md:justify-start">
+							<a href="#contact" className="btn btn-primary">
+								Agendar consulta
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -24,17 +24,20 @@ const AdultsServices = ({ sectionId }: { sectionId: string }) => {
 									key={`adult-service-${service}`}
 									className="flex items-start gap-4"
 								>
-									<LibelulaIcon className="w-8 h-8 text-secondary-green" />
+									<span>
+										<LibelulaIcon className="w-8 h-8 text-secondary-green" />
+									</span>
 									<span className="font-poppins text-lg font-semibold text-black leading-relaxed">
 										{service}
 									</span>
 								</li>
 							))}
 						</ul>
-
-						<a href="#contact" className="btn btn-primary">
-							Agendar consulta
-						</a>
+						<div className="flex justify-center md:justify-start">
+							<a href="#contact" className="btn btn-primary">
+								Agendar consulta
+							</a>
+						</div>
 					</div>
 
 					{/* Adults services image */}
