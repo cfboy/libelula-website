@@ -20,7 +20,11 @@ const Footer = () => {
 					<div className="flex flex-col md:flex-row gap-8 md:gap-4">
 						{/* Logo */}
 						<div className="flex justify-center lg:justify-start lg:justify-self-start">
-							<img src={logo} alt="Clínica Libélula" className="h-16 w-auto" />
+							<img
+								src={logo}
+								alt="Clínica Libélula"
+								className="h-16 md:h-24 w-auto"
+							/>
 						</div>
 
 						{/* Navigation Links */}

@@ -19,13 +19,8 @@ const KidsServices = ({ sectionId }: { sectionId: string }) => {
 							<img
 								src={kidsTherapyImage}
 								alt="Terapias para niños y adolescentes"
-								className="w-full h-[400px] lg:h-[500px] object-cover"
+								className="w-full"
 							/>
-
-							{/* Floating circular elements */}
-							<div className="absolute top-4 left-4 w-20 h-20 bg-primary-green rounded-full opacity-80 blur-sm"></div>
-							<div className="absolute top-16 right-8 w-16 h-16 bg-secondary-green rounded-full opacity-80 blur-sm"></div>
-							<div className="absolute bottom-8 left-1/3 w-24 h-24 bg-light-green rounded-full opacity-80 blur-sm"></div>
 						</div>
 					</div>
 

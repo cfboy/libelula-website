@@ -30,17 +30,13 @@ const HeroSection = ({ sectionId }: { sectionId: string }) => {
 
 					{/* Hero Images */}
 					<div className="relative">
-						<div className="grid grid-cols-1 gap-4 h-[500px] lg:h-[600px]">
-							{/* Blurred background elements */}
-							<div className="bg-secondary-green blur-md rounded-xl opacity-60"></div>
-							{/* Main hero image */}
-							<div className="col-span-2 rounded-xl overflow-hidden">
-								<img
-									src={heroSectionImage}
-									alt="Servicios terapéuticos para niños y familias"
-									className="w-full h-full object-cover"
-								/>
-							</div>
+						{/* Main hero image */}
+						<div className="col-span-2 rounded-xl overflow-hidden">
+							<img
+								src={heroSectionImage}
+								alt="Servicios terapéuticos para niños y familias"
+								className="w-full"
+							/>
 						</div>
 					</div>
 				</div>

@@ -42,13 +42,13 @@ const AdultsServices = ({ sectionId }: { sectionId: string }) => {
 
 					{/* Adults services image */}
 					<div className="relative">
-						<div className="grid grid-cols- gap-4 h-[400px] lg:h-[500px]">
+						<div className="grid grid-cols- gap-4">
 							{/* Top right - main image */}
 							<div className="rounded-xl overflow-hidden">
 								<img
 									src={adultsServicesImage}
 									alt="Servicios para personas adultas"
-									className="w-full h-full object-cover"
+									className="w-full"
 								/>
 							</div>
 						</div>
